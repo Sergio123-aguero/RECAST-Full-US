@@ -1,5 +1,7 @@
 # RECAST | Portfolio management on Full US equities
 
+[Methodology supplement (PDF)](docs/RECAST_Methodology_Supplement.pdf)
+
 RECAST learns how to allocate capital across a large stock universe. Once the model proposes a portfolio, a stock comparison has a concrete purpose. An alternative might improve a position that ties up substantial capital, while two appealing transfers might compete for the same holding. RECAST uses the candidate portfolio to decide which comparisons to make and how much capital to move.
 
 This repository contains the PyTorch implementation of RECAST (Refining Candidate Allocations through Structured Transfers), Full US training and replay, six ablations, and initial monthly encoder weights. You can run a portfolio decision on a CPU with synthetic inputs. Historical training and replay use data obtained through your own institutional WRDS account. [Full US data sources and download instructions](docs/data-access.md)

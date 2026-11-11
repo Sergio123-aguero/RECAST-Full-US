@@ -1,0 +1,3 @@
+# Preserve canonical file bytes on every platform.
+* -text
+*.safetensors binary

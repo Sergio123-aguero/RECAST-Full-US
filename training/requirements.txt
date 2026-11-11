@@ -1,0 +1,8 @@
+# Install a CPU or CUDA build of PyTorch first. See the root README.
+safetensors>=0.4
+numpy==2.3.4
+pandas==2.3.3
+pyarrow==23.0.0
+exchange-calendars==4.13.2
+psutil==7.2.2
+pytest==9.1.1

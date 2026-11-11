@@ -1,0 +1,52 @@
+# Local financial data, intermediate caches and experiment runs
+/data/
+/wrds-downloads/
+/runs/
+/outputs/
+/checkpoints/
+/rebuilt-data/
+/restricted_local_only/
+**/local_only/
+*.parquet
+*.pq
+*.npy
+*.npz
+*.arrow
+*.feather
+*.csv
+*.csv.gz
+*.csv.zip
+*.tsv
+*.tsv.gz
+*.sas7bdat
+*.dta
+
+# Trained artifacts. The shared monthly initializer is part of this release.
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+!/weights/portable/monthly_encoder.safetensors
+
+# Outputs written during local training and evaluation
+best.json
+run.json
+validation_*.json
+BINDING.json
+receipt.json
+*.jsonl
+*.log
+
+# Environments and credentials
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+.env.*
+.pgpass
+pgpass.conf
+.pg_service.conf
+*.pem
+*.key
